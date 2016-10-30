@@ -1,0 +1,17 @@
+{
+  "name": "monarch-mobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "dev": "open ./ios/FirebaseAuth.xcodeproj",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android"
+  },
+  "dependencies": {
+    "firebase": "^3.2.1",
+    "react": "15.2.1",
+    "react-native": "0.30.0",
+    "react-native-json-tree": "0.0.6"
+  }
+}
